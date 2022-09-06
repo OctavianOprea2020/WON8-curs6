@@ -1,0 +1,48 @@
+Person():
+---------
+
+Person1:
+
+Name: Ionescu Ion
+Age: 20
+Married: true
+
+Person2:
+
+Name: Georgescu George
+Age: 40
+Married: true
+
+Person3:
+
+Name: Marinescu Marin
+Age: 60
+Married: false
+
+
+Product():
+----------
+
+Product1:
+Name: Book
+Price: 10.25
+Quantity: 100
+Category: 'School'
+Has Stock: true
+Is Category 'school': true
+
+Product2:
+Name: Desk
+Price: 249.99
+Quantity: 500
+Category: 'Furniture'
+Has Stock: true
+Is Category 'Grocery': false
+
+Product3:
+Name: TV Set
+Price: 1000.55
+Quantity: 200
+Category: 'Electronics'
+Has Stock: true
+Is Category 'ELECTRONICS': true

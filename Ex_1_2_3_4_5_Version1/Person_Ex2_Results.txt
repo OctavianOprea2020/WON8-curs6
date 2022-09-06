@@ -1,0 +1,14 @@
+Person1:
+Name: Ionescu Ion
+Age: 20
+Married: true
+
+Person2:
+Name: Georgescu George
+Age: 40
+Married: true
+
+Person3:
+Name: Marinescu Marin
+Age: 60
+Married: false

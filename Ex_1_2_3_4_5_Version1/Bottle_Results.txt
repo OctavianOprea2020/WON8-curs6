@@ -1,0 +1,70 @@
+Bottle - After calling Constructor:
+Set total capacity to 1000 ml.
+Set available liquid to 500 ml.
+Set open to true.
+
+Bottle - Verify:
+Total capacity: 1000 ml.
+Available liquid: 500 ml.
+Bottle is: open.
+
+Bottle - After Set:
+Set total capacity to 2000 ml.
+Set available liquid to 2000 ml.
+Set open to false.
+
+Bottle - Verify:
+Total capacity: 2000 ml.
+Available liquid: 2000 ml.
+Bottle is: closed.
+
+Available liquid: 2000 ml.
+Enter the volume of liquid (ml) you want to drink (negative amount) or to add (positive number) (0 for Exit): 100
+
+Set open to true.
+Bottle is now open.
+Error: trying to add an amount of liquid of 100 ml that will set the volume over the total capacity of 2000 ml!
+
+Available liquid: 2000 ml.
+Enter the volume of liquid (ml) you want to drink (negative amount) or to add (positive number) (0 for Exit): -200
+
+Set available liquid to 1800 ml.
+After drinking the amount of liquid of 200 ml, the available liquid is 1800 ml.
+
+Available liquid: 1800 ml.
+Enter the volume of liquid (ml) you want to drink (negative amount) or to add (positive number) (0 for Exit): -500
+
+Set available liquid to 1300 ml.
+After drinking the amount of liquid of 500 ml, the available liquid is 1300 ml.
+
+Available liquid: 1300 ml.
+Enter the volume of liquid (ml) you want to drink (negative amount) or to add (positive number) (0 for Exit): 400
+
+Set available liquid to 1700 ml.
+After adding the amount of liquid of 400 ml, the available liquid is 1700 ml.
+
+Available liquid: 1700 ml.
+Enter the volume of liquid (ml) you want to drink (negative amount) or to add (positive number) (0 for Exit): 1000
+
+Error: trying to add an amount of liquid of 1000 ml that will set the volume over the total capacity of 2000 ml!
+
+Available liquid: 1700 ml.
+Enter the volume of liquid (ml) you want to drink (negative amount) or to add (positive number) (0 for Exit): -2000
+
+Error: trying to drink an amount of liquid of 2000 ml that will set the volume < 0!
+
+Available liquid: 1700 ml.
+Enter the volume of liquid (ml) you want to drink (negative amount) or to add (positive number) (0 for Exit): -1000
+
+Set available liquid to 700 ml.
+After drinking the amount of liquid of 1000 ml, the available liquid is 700 ml.
+
+Available liquid: 700 ml.
+Enter the volume of liquid (ml) you want to drink (negative amount) or to add (positive number) (0 for Exit): 0
+
+Do you want to exit (Y/N)? y
+Set open to false.
+Bottle is now closed.
+
+Leaving...
+Have a nice day!
